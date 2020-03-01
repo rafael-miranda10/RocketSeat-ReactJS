@@ -1,0 +1,44 @@
+.product-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.product-info h1 {
+    font-size: 32px;
+}
+
+.product-info p {
+    color: #666;
+    line-height:  24 px;
+    margin-top:  5px;
+}
+
+.product-info p a{
+    color:  #069;
+}
+.actions-voltar {
+    display: flex;
+    justify-content:  space-between;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.actions-voltar a {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.actions-voltar a :hover{
+    opacity: 0.7;
+}
